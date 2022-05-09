@@ -1,0 +1,67 @@
+body  {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background: url('img/header.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+
+h1 {
+    color:azure;
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div {
+    border: 2px solid cyan;
+    padding: 5px;
+}
+
+
+.center-screen {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 30px;
+    text-transform:uppercase;
+}
+
+.btn-primary{
+    background-color: orangered;
+    border:5px outset gold;
+}
+
+.btn-primary:hover{
+    background: rgb(147, 218, 42);
+    font-style: normal;
+    border: 5px inset rgb(0, 238, 255);
+}
+
+hr {
+    border: 5px solid orangered;
+    background-color: gold;
+    border-radius: 5px;
+    max-width: 1000px; 
+    /* max-width sẽ responsive, width thì không */
+    margin: 10px auto;
+    opacity: 90%;
+}
+
+
+
+/* hr:hover {
+    background: rgb(147, 218, 42);
+    border: 5px inset rgb(0, 238, 255);
+} */
+
+.khoangcach{
+    height: 10rem;
+}
+
